@@ -1,0 +1,641 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.border {
+    border: 1px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* height: 100%; */
+    /* position: relative; */
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    /* background-color: cyan; */
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid black;
+}
+
+.logo {
+    margin-left: 200px;
+    font-size: 40px;
+    color: black;
+    font-weight: bolder;
+}
+
+.nav-links {
+    margin-right: 200px;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-links:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.banner {
+    display: flex;
+    /* background-color: pink; */
+
+}
+
+.banner-container {
+    /* background-color: white; */
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+
+}
+
+.banner-container h3 {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.banner-container p {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-container a {
+    margin-top: 150px;
+    /* background-color: white; */
+    font-size: 20px;
+    margin-left: 20px;
+    color: black;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.main-cards {
+    display: flex;
+    /* width: 20rem; */
+}
+
+.card {
+    flex: 1 1 20rem;
+    border: 1px solid black;
+    height: 200px;
+    text-align: center;
+    /* background-color: pink; */
+}
+
+.card h3 {
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card li {
+    padding-bottom: 3px;
+    font-size: 18px;
+}
+
+.card-one p {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-one span {
+    text-decoration: underline;
+}
+
+.card-one button {
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card-two p {
+    text-align: left;
+    margin-left: 50px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.card-three p {
+    text-align: center;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.a {
+    color: red;
+}
+
+.b {
+    color: green;
+}
+
+.c {
+    color: blue;
+}
+
+.d {
+    color: pink;
+}
+
+.e {
+    color: purple;
+}
+
+.box-container {
+    height: 300px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+
+.box {
+    flex: 1 1 10rem;
+}
+
+.box-one {
+    height: 150px;
+    background-color: black;
+    padding: 30px;
+    color: white;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.box-one h3 {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.box-one p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.box-two {
+    width: 300px;
+    height: 150px;
+    background-color: black;
+    padding: 30px;
+    color: white;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.box-two h3 {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.box-two p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.box-three {
+    height: 150px;
+    border: 1px solid black;
+    padding: 30px;
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.box-three h3 {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.box-three p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.box-three a {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.main {
+    /* border: 1px solid black; */
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.page-one {
+    width: 100%;
+    height: 100vh;
+}
+
+.page-one h2 {
+    margin-top: 50px;
+    height: 100px;
+    /* background-color: pink; */
+    text-align: center;
+    line-height: 100px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.page-one .img {
+    margin-left: 12%;
+    position: relative;
+}
+
+.page-one h3 {
+    position: absolute;
+    bottom: 400px;
+    left: 350px;
+    color: red;
+    font-size: 100px;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px white;
+}
+
+.page-two {
+    width: 100%;
+    height: 300px;
+    /* background-color: pink; */
+    padding: 100px;
+
+}
+
+.page-two .p1 {
+    font-size: 30px;
+
+    /* background-color: cyan; */
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.page-two span {
+    color: blue;
+}
+
+.page-two .p2 {
+    font-size: 20px;
+    /* padding: 100px; */
+    /* background-color: cyan; */
+    margin-left: 40px;
+}
+
+.page-three {
+    height: 100vh;
+    /* width: 100%; */
+    margin-left: 7%;
+    /* margin-right: 10%; */
+    /* background-color: cyan; */
+    /* grid-template-columns: repeat(12, 1fr); */
+    /* grid-template-rows: 100px 1fr 100px; */
+    position: relative;
+}
+
+.first-part {
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    margin: 100px;
+    z-index: 1;
+    background: url(./img/flowers-19830_1280.jpg);
+    background-size: cover;
+    background-position: top;
+    position: absolute;
+}
+
+.second-part {
+    width: 800px;
+    height: 700px;
+    background-color: rgba(255, 255, 0, 0.349);
+    position: absolute;
+    margin-left: 275px;
+    margin-top: 30px;
+}
+
+.second-part img {
+    text-align: center;
+    margin-top: 230px;
+    margin-left: 350px;
+}
+
+.page-four {
+    width: 100%;
+    height: 300px;
+    /* background-color: pink; */
+    padding: 100px;
+
+}
+
+.page-four .p1 {
+    font-size: 30px;
+
+    /* background-color: cyan; */
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.page-four .p2 {
+    font-size: 20px;
+    /* padding: 100px; */
+    /* background-color: cyan; */
+    margin-left: 40px;
+}
+
+.page-five {
+    width: 100%;
+    height: 300px;
+    /* background-color: pink; */
+    padding: 100px;
+    /* background-color: pink; */
+
+}
+
+.page-five .p1 {
+    font-size: 30px;
+
+    /* background-color: cyan; */
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.page-five .p2 {
+    font-size: 20px;
+    /* padding: 100px; */
+    /* background-color: cyan; */
+    margin-left: 40px;
+}
+
+.page-six {
+    width: 100%;
+    height: 300px;
+    /* background-color: pink; */
+    padding: 100px;
+    /* background-color: pink; */
+
+}
+
+.page-six .p1 {
+    font-size: 30px;
+
+    /* background-color: cyan; */
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.page-six .p2 {
+    font-size: 20px;
+    /* padding: 100px; */
+    /* background-color: cyan; */
+    margin-left: 40px;
+}
+
+.page-seven {
+    width: 100%;
+    height: 300px;
+    /* background-color: pink; */
+    padding: 100px;
+    /* background-color: pink; */
+
+}
+
+.page-seven .p1 {
+    font-size: 30px;
+
+    /* background-color: cyan; */
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.page-seven .p2 {
+    font-size: 20px;
+    /* padding: 100px; */
+    /* background-color: cyan; */
+    margin-left: 40px;
+}
+
+.page-eight {
+    width: 100%;
+    height: 300px;
+    /* background-color: pink; */
+    padding: 100px;
+    /* background-color: pink; */
+
+}
+
+.page-eight .p1 {
+    font-size: 30px;
+
+    /* background-color: cyan; */
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.page-eight .p2 {
+    font-size: 20px;
+    /* padding: 100px; */
+    /* background-color: cyan; */
+    margin-left: 40px;
+}
+
+.double-card {
+    width: 1050px;
+    height: 500px;
+    background-color: rgba(128, 233, 233, 0.686);
+    margin-left: 10%;
+    display: flex;
+}
+
+.first-card {
+    background-position: center;
+    background-size: cover;
+    background: url(./img/flowers-19830_1280.jpg);
+}
+
+.second-card p {
+    /* background-color: pink; */
+    justify-content: center;
+    text-align: left;
+    padding: 60px;
+    margin-top: 25%;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.first-card,
+.second-card {
+    flex: 1;
+}
+
+.left-right {
+    width: 700px;
+    height: 800px;
+    margin-left: 10%;
+    background-color: lightgreen;
+    position: relative;
+}
+
+.left-one {
+    position: absolute;
+    background: url(./img/flowers-8373098_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.left-two {
+    position: absolute;
+    background: url(./img/flowers-19830_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    margin-top: 450px;
+    margin-left: 70px;
+}
+
+.right {
+    position: absolute;
+    background: url(./img/snail-8195174_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 600px;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+.video-two,
+.video-one {
+    margin-left: 25%;
+}
+
+.title {
+    margin-left: 10%;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.last-page-part-one {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 6%;
+}
+
+.part-one p,
+.part-two p {
+    padding-bottom: 5px;
+}
+
+.part-three p {
+    width: 500px;
+    padding-bottom: 5px;
+}
+
+.part-three input,
+button {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.part-three input {
+    width: 350px;
+}
+
+.part-three button {
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 80px;
+    cursor: pointer;
+}
+
+.last-page-part-two {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 6%; */
+    margin-bottom: 50px;
+}
+
+.div-one p,
+.div-two p,
+.div-three p {
+    padding-bottom: 5px;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    color: white;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.links {
+    display: flex;
+}
+
+.links ul {
+    text-align: center;
+    margin-left: 630px;
+    margin-top: 30px;
+}
+
+.links ul a {
+    justify-content: space-around;
+    color: white;
+    padding-left: 10px;
+    font-size: 20px;
+}
